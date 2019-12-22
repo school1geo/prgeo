@@ -1,0 +1,9 @@
+<h1>Search Results</h1>
+ 
+<ul>
+  {% for mean in object_list %}
+    <li>
+      {{ mean.word }}, {{ mean.mean }}
+    </li>
+  {% endfor %}
+</ul>
